@@ -213,6 +213,34 @@ nav a:hover {
   color: #8F98A7;
 }
 
+
+.social {
+  position: fixed;
+  transform: rotate(-90deg);
+  z-index: 100;
+  right: 2px;
+  bottom: 220px;
+  font-size: 20px;
+  transition: all 0.3s ease 0.1s;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+
+
 /* Titles */
 
 .large-title {
