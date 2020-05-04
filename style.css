@@ -294,6 +294,37 @@ nav a:hover {
 }
 
 /* Portfolio */
+
+.portfolio-nav {
+  margin-top: 100px;
+
+}
+
+.social-links {
+position: absolute;
+position: fixed;
+right: 40px;
+top: 200px;
+}
+
+.social-links li {
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+.portfolio-nav a {
+  color: #8F98A7;
+}
+
+
+
 .projects {
   margin-top: 5%;
   text-align: center;
